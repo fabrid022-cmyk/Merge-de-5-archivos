@@ -85,8 +85,6 @@ Mostrar los estudiantes con fechas legibles en DD/MM/YYYY.
 
 ✅ Ejemplo de salida:
 
-css
-Copiar código
 123456789012345 15/11/2025 Fabrizio Del Vecchio 9.75
 987654321098765 01/07/2024 Juan Pérez 8.50
 📝 Licencia
