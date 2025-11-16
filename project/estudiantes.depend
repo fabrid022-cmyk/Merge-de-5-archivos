@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1763299562 source:c:\users\fabri\escritorio\tp-v2-c04-3600-1c2024\estudiantes\estudiantes.c
+	"estudiantes.h"
+
+1763299424 c:\users\fabri\escritorio\tp-v2-c04-3600-1c2024\estudiantes\estudiantes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<inttypes.h>
+	<time.h>
+
+1763299464 source:c:\users\fabri\escritorio\tp-v2-c04-3600-1c2024\estudiantes\main.c
+	"estudiantes.h"
+
