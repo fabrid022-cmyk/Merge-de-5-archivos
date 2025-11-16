@@ -37,9 +37,7 @@ Este proyecto integra **5 estudiantes almacenados en `archivo.dat`**, y los sigu
 - **project/** – Archivos de proyecto Code::Blocks
   - `estudiantes.cbp`  
   - `estudiantes.layout`  
-  - `estudiantes.depend`  
-- **bin/** – Ejecutables generados (no subir)  
-- **obj/** – Archivos objeto generados (no subir)  
+  - `estudiantes.depend`   
 - **data/** – Archivos de datos
   - `archivo.dat` → Archivo con los 5 estudiantes  
 - `.gitignore` – Archivos y carpetas ignoradas por Git  
@@ -53,30 +51,29 @@ Este proyecto integra **5 estudiantes almacenados en `archivo.dat`**, y los sigu
 ---
 
 ## 💻 Compilación y ejecución
+---
 
 <details>
-<summary>Windows (MinGW / Code::Blocks)</summary>
+<summary>🖥️ Windows (MinGW / Code::Blocks)</summary>
 
 ### Compilación en Code::Blocks
-1. Abrir **Code::Blocks** y cargar `estudiantes.cbp`.  
-2. Configurar el compilador si es necesario.  
-3. Build & Run (`F9`) para compilar y ejecutar.
+1. Abrir **Code::Blocks** y cargar el archivo de proyecto `estudiantes.cbp`.
+2. Configurar el compilador si es necesario (MinGW es lo habitual).
+3. Usar **Build & Run** (o presionar `F9`) para compilar y ejecutar el programa.
 
 ### Compilación desde terminal
-```bash
 gcc src/main.c src/estudiantes.c -o gestionEstudiantes.exe
+
 Ejecutar
-bash
-Copiar código
 ./gestionEstudiantes.exe
-</details> <details> <summary>Linux</summary>
+</details>
+
+<details> <summary>🐧 Linux</summary>
+
 Compilación desde terminal
-bash
-Copiar código
 gcc src/main.c src/estudiantes.c -o gestionEstudiantes
+
 Ejecutar
-bash
-Copiar código
 ./gestionEstudiantes
 </details>
 🎮 Uso
