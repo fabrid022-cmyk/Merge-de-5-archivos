@@ -39,7 +39,11 @@ Este proyecto integra **5 estudiantes almacenados en `archivo.dat`**, y los sigu
   - `estudiantes.layout`  
   - `estudiantes.depend`   
 - **data/** – Archivos de datos
-  - `archivo.dat` → Archivo con los 5 estudiantes  
+  - `estudiante1.dat` → Archivo con estudiantes
+  - `estudiante2.dat` → Archivo con estudiantes
+  - `estudiante3.dat` → Archivo con estudiantes
+  - `estudiante4.dat` → Archivo con estudiantes
+  - `estudiante5.dat` → Archivo con estudiantes  
 - `.gitignore` – Archivos y carpetas ignoradas por Git  
 
 ---
